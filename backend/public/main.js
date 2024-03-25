@@ -10,7 +10,7 @@ $(document).ready(function () {
     });
 
     function displayMessage(username, message) {
-        $('#chat-window').append(username + ': ' + message + '</div>');
+        $('#chat-window').append('<div class="message">' + username + ': ' + message + '</div>');
         $('#chat-window').scrollTop($('#chat-window')[0].scrollHeight);
     }
 
