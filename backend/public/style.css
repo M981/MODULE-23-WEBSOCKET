@@ -1,0 +1,10 @@
+#chat-window {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 5px;
+}
+
+
