@@ -3,8 +3,10 @@
     overflow-y: scroll;
 }
 
-.message {
-    margin-bottom: 5px;
+.container.mt-5 {
+    background-color: #212529;
 }
 
-
+body {
+    background-color: #212529;
+}
